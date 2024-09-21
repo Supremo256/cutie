@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cutie mo po hahaha</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        background-color: #fce4ec; /* Light Pink */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        margin-top: -100px;
+      }
+      h1 {
+        color: #ff1493; /* Pink */
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        animation: heartbeat 1.5s infinite ease-in-out alternate;
+      }
+      .tulip {
+        width: 200px;
+        height: auto;
+        animation: float 3s infinite ease-in-out;
+      }
+      .sad,
+      .sorry {
+        width: 100px; /* Adjust width as needed */
+        height: auto;
+        margin-top: 20px; /* Adjust spacing as needed */
+      }
+      @keyframes heartbeat {
+        from {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(1.1);
+        }
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mimi, Will You Be My Valentine?</h1>
+      <img class="tulip" src="tulipss.webp" alt="Tulip Flower" />
+      <img class="sad" src="sad-kitten.gif" alt="Sad Kitten" />
+      <img class="sorry" src="sorry.gif" alt="Sorry" />
+      <audio autoplay>
+        <source src="exo-let-me-in-ringdd.com.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </body>
+</html>
